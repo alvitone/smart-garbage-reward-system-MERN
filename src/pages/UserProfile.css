@@ -1,0 +1,76 @@
+/* Page spacing */
+.user-profile {
+  margin-top: 80px; /* as requested */
+  margin-bottom: 40px;
+}
+
+/* Card styling */
+.user-profile .card {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+}
+
+/* Card titles */
+.user-profile h5 {
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #0b3c49; /* eco dark teal */
+}
+
+/* User details text */
+.user-profile p {
+  margin-bottom: 8px;
+  color: #444;
+  font-size: 15px;
+}
+
+/* Edit button */
+.user-profile .btn-outline-primary {
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 13px;
+}
+
+/* QR section */
+.user-profile img {
+  margin-top: 12px;
+  border-radius: 12px;
+  padding: 10px;
+  background: #f4fdfc;
+}
+
+/* Generate QR button */
+.user-profile .btn-success {
+  border-radius: 20px;
+  padding: 6px 18px;
+  font-size: 14px;
+}
+
+/* Points highlight */
+.user-profile h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1e8449; /* green */
+  margin-bottom: 8px;
+}
+
+/* Sub text */
+.user-profile .card p:last-child {
+  font-size: 14px;
+  color: #777;
+}
+
+.button1:hover {background-color: #04AA6D;color: white;}
+
+/* Mobile spacing */
+@media (max-width: 768px) {
+  .user-profile {
+    margin-top: 100px;
+  }
+
+  .user-profile .col-lg-6 {
+    margin-bottom: 20px;
+  }
+}
